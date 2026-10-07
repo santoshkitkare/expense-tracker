@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block head %}
+<style>
+    .legal { max-width: 720px; margin: 0 auto; padding: 4rem 2rem; }
+    .legal h1 { font-family: var(--font-display); font-size: 2.25rem; margin-bottom: 0.5rem; }
+    .legal h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+    .legal p { line-height: 1.7; margin-bottom: 0.75rem; }
+    .legal .legal-updated { font-size: 0.85rem; color: var(--ink-faint); }
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="legal">
+    <h1>Terms and Conditions</h1>
+    <p class="legal-updated">Last updated: October 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By creating an account or using Spendly, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the service.</p>
+
+    <h2>2. Use of Service</h2>
+    <p>Spendly is a personal expense tracking tool. You agree to use it only for lawful purposes and for your own personal record-keeping. You are responsible for keeping your login credentials secure and for all activity under your account. You must not attempt to disrupt the service, access other users' data, or use the service in a way that violates any applicable law.</p>
+
+    <h2>3. User Data</h2>
+    <p>You retain ownership of the expense information you enter into Spendly. We store this data only to provide the service to you and do not sell it to third parties. You may stop using the service and request deletion of your account and data at any time. You are responsible for the accuracy of the data you enter.</p>
+
+    <h2>4. Limitations of Liability</h2>
+    <p>Spendly is provided "as is" without warranties of any kind. It is a tracking aid and does not constitute financial, tax, or investment advice. To the fullest extent permitted by law, Spendly and its creators are not liable for any loss or damages arising from your use of, or inability to use, the service, including loss of data.</p>
+
+    <h2>5. Changes to Terms</h2>
+    <p>We may update these Terms from time to time. Changes take effect when they are posted on this page, and continued use of Spendly after that means you accept the revised Terms.</p>
+</section>
+{% endblock %}
